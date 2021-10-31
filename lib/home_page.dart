@@ -8,11 +8,12 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("My App"),
-       ),
+      ),
       body: Center(
         child: Container(
           child: Text("Welcome to my App $id developed by $name"),
         ),
+      
       ),
       drawer: Drawer(),
     );
