@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:flutter_catalogue/utils/routes.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -44,11 +45,11 @@ class LoginPage extends StatelessWidget {
                   height: 20.0,
                 ),
                 ElevatedButton(
-                  child: Text("Login"),
-                  style: TextButton.styleFrom(),
-                  onPressed: () {
-                    print("welcome to my app");
-                })
+                    child: Text("Login"),
+                    style: TextButton.styleFrom(),
+                    onPressed: () {
+                      Navigator.pushNamed(context, MyRoutes.homeRoute);
+                    }),
               ],
             ),
           ),
