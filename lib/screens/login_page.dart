@@ -5,7 +5,7 @@ import 'package:flutter_catalogue/utils/routes.dart';
 
 class LoginPage extends StatefulWidget {
   @override
-  State<LoginPage> createState() => _LoginPageState();
+  _LoginPageState createState() => _LoginPageState();
 }
 
 class _LoginPageState extends State<LoginPage> {
